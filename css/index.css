@@ -1,0 +1,108 @@
+*,
+*:after,
+*:before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  background-color: hsl(0, 0%, 98%);
+  width: 90%;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(200px, auto);
+
+}
+
+
+
+header, footer{
+  text-align: center;
+  margin: 50px;
+}
+
+
+
+h1 {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+h2 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 30px;
+}
+
+
+#supervisor {
+  border-top: hsl(180, 62%, 55%) solid 3px;
+  grid-column: 1;
+  transform: translateY(50%);
+  justify-content: center;
+}
+
+#team_builder {
+  border-top: hsl(0, 78%, 62%) solid 3px;
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: center;
+}
+
+#karma {
+  border-top: hsl(34, 97%, 64%) solid 3px;
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: center;
+}
+
+#calculator {
+  border-top: hsl(212, 86%, 64%)solid 3px;
+  grid-column: 3;
+  transform: translateY(50%);
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(229, 6%, 66%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.cards {
+
+  background: #fff;
+  box-shadow: 0 7px 16px #ddd;
+  padding: 1rem;
+}
+
+.cards p, h3 {
+
+  text-align: left;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.img_nested {
+  position: relative;
+  margin-left: 70%;
+}
